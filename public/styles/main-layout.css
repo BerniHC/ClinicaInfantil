@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('bootstrap.min.css');
+@import url('jasny-bootstrap.min.css');
+@import url('font-awesome.min.css');
+
+@import url('components.min.css');
+
+/* CSS Document */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.push {
+    width: 100%;
+    height: 60px;
+    clear: both;
+}
+.container,
+.container-fluid {
+    min-height: 100%;
+}
+.footer {
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin-top: -51px;
+}
+.navbar-inverse[data-toggle="navbar"] {
+    background-color: rgba(82,188,191,0);
+    border-color: rgba(82,188,191,0);
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: rgba(255,255,255,0.2);
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgba(255,255,255,0.2);
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav .fa {
+    font-size: 1.5em;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    [data-toggle=navbar] {
+        background-color: #52BCBF !important;
+    }
+}
+
+.well {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+/* Front */
+.front {
+    width: 100%;
+    height: 100%;
+    background: #52BCBF url(../images/mosaic.png);
+    padding-top: 70px;
+}
+.front-content {
+    text-align: center;
+}
+.logo {
+    max-width: 560px;
+    width: 100%;
+    
+}
+.front-content div {
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto 40px;
+    padding: 10px 20px;
+    color: white;
+}
+.front-content .title {
+}
+.front-content a {
+    color: white;
+    outline: none;
+}
+.front-content a:hover {
+    color: white;
+    -webkit-text-shadow: 0 0 3px #fff;
+    -moz-text-shadow: 0 0 3px #fff;
+    text-shadow: 0 0 3px #fff;
+}
